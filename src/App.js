@@ -1,11 +1,8 @@
 import "./App.css";
+import Body from "./Components/Body";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-blue-600">This is my Nextflex</h1>
-    </div>
-  );
+  return <Body />;
 }
 
 export default App;
